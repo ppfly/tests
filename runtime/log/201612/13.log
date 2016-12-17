@@ -1,0 +1,3995 @@
+[ 2016-12-13T00:03:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/Index/index
+[ log ] www.tests.mm/admin/Index/index [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,336.72kb] [文件加载：39]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:07:56+08:00 ] 127.0.0.1 127.0.0.1 GET /common
+[ log ] www.tests.mm/common [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,331.07kb] [文件加载：38]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'common',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:08:06+08:00 ] 127.0.0.1 127.0.0.1 GET /abc
+[ log ] www.tests.mm/abc [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,331.06kb] [文件加载：38]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'abc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:10:33+08:00 ] 127.0.0.1 127.0.0.1 GET /abc
+[ log ] www.tests.mm/abc [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,423.44kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'abc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:10:33+08:00 ] 127.0.0.1 127.0.0.1 GET /abc
+[ log ] www.tests.mm/abc [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,423.77kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'abc',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:13:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.025001s][吞吐率：40.00req/s] [内存消耗：1,428.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:15:34+08:00 ] 127.0.0.1 127.0.0.1 GET /index
+[ log ] www.tests.mm/index [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,406.50kb] [文件加载：41]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\EProject\wwwroot\tests\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:22:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,428.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:25:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test
+[ log ] www.tests.mm/index/test [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,424.10kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:26:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/index
+[ log ] www.tests.mm/index/test/index [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,424.20kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:29:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/index
+[ log ] www.tests.mm/index/test/index [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,424.44kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=1|1; thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:29:51+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/index
+[ log ] www.tests.mm/index/test/index [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,424.44kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=1|1; thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:30:01+08:00 ] 127.0.0.1 127.0.0.1 GET /index/abc
+[ log ] www.tests.mm/index/abc [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,424.29kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'abc',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1; thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.024001s][吞吐率：41.67req/s] [内存消耗：1,428.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.029002s][吞吐率：34.48req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:32:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:33:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,422.96kb] [文件加载：43]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=1|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:35:54+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tests.mm/ [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,689.24kb] [文件加载：50]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\EProject\wwwroot\tests\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\EProject\wwwroot\tests\public\..\application\index\view\index\index.html[D:\EProject\wwwroot\tests\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-12-13T00:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,428.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:36:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,429.15kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:44:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,429.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,429.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,429.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:44:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,429.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:44:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/test
+[ log ] www.tests.mm/admin/test [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,429.51kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:47:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin
+[ log ] www.tests.mm/index.php/admin [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,428.89kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:48:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php/admin/index/login
+[ log ] www.tests.mm/index.php/admin/index/login [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,429.09kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:50:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test
+[ log ] www.tests.mm/index/test [运行时间：0.030002s][吞吐率：33.33req/s] [内存消耗：1,689.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=1|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->index[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\EProject\wwwroot\tests\public\..\application\index\view\test\index.html[D:\EProject\wwwroot\tests\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-12-13T00:52:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,429.05kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.021002s][吞吐率：47.61req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.020001s][吞吐率：50.00req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.021001s][吞吐率：47.62req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.019001s][吞吐率：52.63req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023002s][吞吐率：43.47req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.022001s][吞吐率：45.45req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.023001s][吞吐率：43.48req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:53:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,429.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:54:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,429.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:55:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ log ] www.tests.mm/Admin [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,428.84kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ log ] www.tests.mm/Admin [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,429.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ log ] www.tests.mm/Admin [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,429.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:55:09+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ log ] www.tests.mm/Admin [运行时间：0.030001s][吞吐率：33.33req/s] [内存消耗：1,429.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T00:55:10+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin
+[ log ] www.tests.mm/Admin [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,429.21kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:01:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,429.05kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:01:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/Index/Index
+[ log ] www.tests.mm/admin/Index/Index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,429.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'Index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:01:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/Index/index
+[ log ] www.tests.mm/admin/Index/index [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,429.15kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:04:06+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/Index/index
+[ log ] www.tests.mm/admin/Index/index [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,466.95kb] [文件加载：48]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[D:\EProject\wwwroot\tests\application\common\controller\Base.php:6]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:04:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.024001s][吞吐率：41.66req/s] [内存消耗：1,466.61kb] [文件加载：48]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\controller' not found[D:\EProject\wwwroot\tests\application\common\controller\Base.php:6]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:06:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.tests.mm/admin [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,725.29kb] [文件加载：50]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:06:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,906.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:06:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ log ] www.tests.mm/admin/index/verify.html [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,763.09kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:07:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?
+[ log ] www.tests.mm/admin/index/verify.html? [运行时间：0.061004s][吞吐率：16.39req/s] [内存消耗：1,762.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:07:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,807.56kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => '2utj',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\model' not found[D:\EProject\wwwroot\tests\application\common\model\User.php:5]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:07:57+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：1,911.38kb] [文件加载：55]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => '2utj',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,764.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ log ] www.tests.mm/admin/index/verify.html [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,762.87kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,807.56kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'jaa6',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\model' not found[D:\EProject\wwwroot\tests\application\common\model\User.php:5]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:43+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,770.66kb] [文件加载：53]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'jaa6',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,764.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ log ] www.tests.mm/admin/index/verify.html [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：1,762.86kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:53+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,771.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'pdj8',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,764.71kb] [文件加载：52]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:08:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ log ] www.tests.mm/admin/index/verify.html [运行时间：0.029001s][吞吐率：34.48req/s] [内存消耗：1,762.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:05+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,771.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => '3hyv',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：1,764.71kb] [文件加载：52]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\login.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html
+[ log ] www.tests.mm/admin/index/verify.html [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,762.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/verify.html?
+[ log ] www.tests.mm/admin/index/verify.html? [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,762.88kb] [文件加载：51]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\common\controller\Base->verify[ D:\EProject\wwwroot\tests\application\common\controller\Base.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:22+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/index/login.html
+[ log ] www.tests.mm/admin/index/login.html [运行时间：0.090006s][吞吐率：11.11req/s] [内存消耗：2,677.97kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.tests.mm',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => 'admin',
+  'code' => 'wh88',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_user` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_user` WHERE  `username` = 'admin' LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `t_user`  SET `id`=1,`username`='admin',`last_login_time`='1481562562'  WHERE  `id` = 1       [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index.html
+[ log ] www.tests.mm/admin/index/index.html [运行时间：0.054004s][吞吐率：18.52req/s] [内存消耗：1,909.73kb] [文件加载：54]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/info.html
+[ log ] www.tests.mm/admin/index/info.html [运行时间：0.031001s][吞吐率：32.26req/s] [内存消耗：1,727.02kb] [文件加载：53]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest1.html
+[ log ] www.tests.mm/admin/tests/listtest1.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：2,908.83kb] [文件加载：65]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest1[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest1.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '1' LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '1' LIMIT 0,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/addtest1.html
+[ log ] www.tests.mm/admin/tests/addtest1.html [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：1,978.16kb] [文件加载：54]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'addtest1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->addTest1[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest1.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest2.html
+[ log ] www.tests.mm/admin/tests/listtest2.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,906.29kb] [文件加载：65]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest2[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest2.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '2' LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '2' LIMIT 0,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html
+[ log ] www.tests.mm/admin/tests/listtest3.html [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,906.15kb] [文件加载：65]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 0,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/addtest3.html
+[ log ] www.tests.mm/admin/tests/addtest3.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,978.55kb] [文件加载：54]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'addtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->addTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/listlib.html
+[ log ] www.tests.mm/admin/lib/listlib.html [运行时间：0.083004s][吞吐率：12.05req/s] [内存消耗：2,845.77kb] [文件加载：65]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'listlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->listLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\listlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_lib` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_lib` LIMIT 0,2   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/addlib.html
+[ log ] www.tests.mm/admin/lib/addlib.html [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：2,774.12kb] [文件加载：61]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'addlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->addLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\addlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'test1_num',
+  3 => 'test2_num',
+  4 => 'test3_num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/listlib.html
+[ log ] www.tests.mm/admin/lib/listlib.html [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：2,688.07kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'listlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->listLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\listlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_lib` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_lib` LIMIT 0,2   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/addlib.html
+[ log ] www.tests.mm/admin/lib/addlib.html [运行时间：0.085004s][吞吐率：11.76req/s] [内存消耗：2,633.44kb] [文件加载：59]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'addlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->addLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\addlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'test1_num',
+  3 => 'test2_num',
+  4 => 'test3_num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/addlib.html
+[ log ] www.tests.mm/admin/lib/addlib.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,633.44kb] [文件加载：59]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'addlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->addLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\addlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'test1_num',
+  3 => 'test2_num',
+  4 => 'test3_num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests`  [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/listlib.html
+[ log ] www.tests.mm/admin/lib/listlib.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,688.07kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'listlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->listLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\listlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_lib` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_lib` LIMIT 0,2   [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/addlib.html
+[ log ] www.tests.mm/admin/lib/addlib.html [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,633.44kb] [文件加载：59]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'addlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->addLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\addlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'test1_num',
+  3 => 'test2_num',
+  4 => 'test3_num',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests`  [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/listlib.html
+[ log ] www.tests.mm/admin/lib/listlib.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,688.07kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'listlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->listLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\listlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_lib` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_lib` LIMIT 0,2   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/lib/listlib.html
+[ log ] www.tests.mm/admin/lib/listlib.html [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：2,688.07kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'lib',
+    2 => 'listlib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Lib->listLib[ D:\EProject\wwwroot\tests\application\admin\controller\Lib.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\lib\listlib.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_lib` LIMIT 1   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_lib` LIMIT 0,2   [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:09:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html
+[ log ] www.tests.mm/admin/tests/listtest3.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,747.64kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 0,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:11:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html?page=63
+[ log ] www.tests.mm/admin/tests/listtest3.html?page=63 [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：2,748.12kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/listtest3.html',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '63',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 124,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:11:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/deletetest3.html?id=220&currentPage=63&total=126
+[ log ] www.tests.mm/admin/tests/deletetest3.html?id=220&currentPage=63&total=126 [运行时间：0.078006s][吞吐率：12.82req/s] [内存消耗：2,576.77kb] [文件加载：59]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'deletetest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/listtest3.html?page=63',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '220',
+  'currentPage' => '63',
+  'total' => '126',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->deleteTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `pic` FROM `t_tests` WHERE  `id` = 220 LIMIT 1    [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `id` = 220   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] DELETE FROM `t_tests`    WHERE  `id` = 220    [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:11:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html?page=63
+[ log ] www.tests.mm/admin/tests/listtest3.html?page=63 [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,745.52kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/deletetest3.html?id=220&currentPage=63&total=126',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '63',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 124,2    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:11:25+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/deletetest3.html?id=219&currentPage=63&total=125
+[ log ] www.tests.mm/admin/tests/deletetest3.html?id=219&currentPage=63&total=125 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,632.64kb] [文件加载：60]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'deletetest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/listtest3.html?page=63',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '219',
+  'currentPage' => '63',
+  'total' => '125',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->deleteTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'code',
+  3 => 'msg',
+  4 => 'data',
+  5 => 'url',
+  6 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `pic` FROM `t_tests` WHERE  `id` = 219 LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `id` = 219   [ RunTime:0.000000s ]
+[ sql ] [ SQL ] DELETE FROM `t_tests`    WHERE  `id` = 219    [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:11:28+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html?page=62
+[ log ] www.tests.mm/admin/tests/listtest3.html?page=62 [运行时间：0.096005s][吞吐率：10.42req/s] [内存消耗：2,748.17kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/deletetest3.html?id=219&currentPage=63&total=125',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '62',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 122,2    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-13T01:12:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/tests/listtest3.html?page=1
+[ log ] www.tests.mm/admin/tests/listtest3.html?page=1 [运行时间：0.075005s][吞吐率：13.33req/s] [内存消耗：2,748.14kb] [文件加载：63]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tests',
+    2 => 'listtest3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/tests/listtest3.html?page=62',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; thinkphp_show_page_trace=0|1; PHPSESSID=ho3fld90qtvf67iu3h63cqd3d2',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Tests->listTest3[ D:\EProject\wwwroot\tests\application\admin\controller\Tests.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\listtest3.html [ array (
+  0 => 'request',
+  1 => 'param',
+  2 => 'total',
+  3 => 'cpage',
+  4 => 'data',
+  5 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_tests` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `t_tests` WHERE  `type` = '3' LIMIT 1    [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `t_tests` WHERE  `type` = '3' LIMIT 0,2    [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
