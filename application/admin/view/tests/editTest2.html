@@ -41,10 +41,14 @@
           <label>标准答案：</label>
         </div>
         <div class="field" style="padding-top:8px;">
-          A <input id="a" name="answer"  value="A" type="radio" {if $data['answer']=='A'}checked='checked'{/if} />
-          B <input id="b" name="answer"  value="B" type="radio" {if $data['answer']=='B'}checked='checked'{/if} />
-          C <input id="c" name="answer"  value="C" type="radio" {if $data['answer']=='C'}checked='checked'{/if} />
-          D <input id="d" name="answer"  value="D" type="radio" {if $data['answer']=='D'}checked='checked'{/if} />
+
+
+          <ul>
+            {volist name="option" id="item"}
+            <li> {$key}.<input style="width:500px;" type="text" name="option[]" value="{$item}"/> <input type="radio" name="answer" value="{$key}" {if $data['answer']==$key}checked='checked'{/if}/> </li>
+            {/volist}
+
+          </ul>
 
         </div>
       </div>

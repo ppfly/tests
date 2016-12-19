@@ -259,6 +259,8 @@ class Tests extends Admin{
             $data=Db::name('tests')->where('id',$id)->find();
             $this->assign('currentPage',$currentPage);
             $this->assign('data',$data);
+            $option=json_decode($data['option'],true);
+            $this->assign('option',$option);
             return $this->fetch();
         }
     }

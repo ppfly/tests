@@ -10,12 +10,22 @@ class Test extends Controller {
     }
     public function queryAllTest1(){
         if($this->request->isPost()){
-            $sql='select id,title from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id=?)) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id=?))';
-            $result=Db::query($sql,[input('id'),input('id')]);
+            $sql='select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id=?)) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id=?))';
+            //$result=Db::query($sql,[input('id'),input('id')]);
+            $result=Db::query($sql,[1,1]);
             //$result=Db::queryDataToTable($sql,[input('id'),input('id')]);
             output_data($result);die;
         }
     }
+    public function queryAllTest2(){
+        if($this->request->isPost()){
+            $sql="select id,`type`,title,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id=?)) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id=?))";
+            $result=Db::query($sql,[2,2]);
+            //$result=Db::queryDataToTable($sql,[input('id'),input('id')]);
+            output_data($result);die;
+        }
+    }
+
     public function completedTest(){
         //output_data($_POST);
         if ($this->request->isPost()){

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest2.html";i:1482149302;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\edittest2.html";i:1482151296;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="panel admin-panel">
-  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加单选题</strong></div>
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改单选题</strong></div>
   <div class="body-content">
     <form method="post" class="form-x" enctype="multipart/form-data" action="<?php echo url('tests/addTest2'); ?>">
       <div class="form-group">
@@ -22,7 +22,7 @@
           <label>题面：</label>
         </div>
         <div class="field">
-          <textarea class="input" name="title" style=" height:90px;"></textarea>
+          <textarea class="input" name="title" style=" height:90px;"><?php echo $data['title']; ?></textarea>
           <div class="tips"></div>
         </div>
       </div>
@@ -31,41 +31,28 @@
           <label>图片：</label>
         </div>
         <div class="field">
-          <!--<input type="text" id="pic" name="img" class="input tips" style="width:25%; float:left;"  value=""  data-toggle="hover" data-place="right" data-image="" />-->
+          <a href="<?php echo $data['pic']; ?>" target="_blank"><img src="<?php echo $data['pic']; ?>" width="100px"/> </a>
           <input type="file" name="pic" class="button bg-blue margin-left" id="image1"   style="float:left;">
           <div class="tipss">图片尺寸：500*500</div>
         </div>
       </div>
-      <div class="form-group">
-        <div class="label">
-          <label>备选答案：</label>
-        </div>
-        <div class="field">
-          <ul>
-            <li> A.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="A"/> </li>
-            <li> B.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="B"/> </li>
-            <li> C.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="C"/> </li>
-            <li> D.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="D"/> </li>
-            <li> E.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="E"/> </li>
-            <li> F.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="F"/> </li>
-          </ul>
-        </div>
-      </div>
 
-<!--
       <div class="form-group">
         <div class="label">
           <label>标准答案：</label>
         </div>
         <div class="field" style="padding-top:8px;">
-          A <input id="a" name="answer"  value="A" type="radio" />
-          B <input id="b" name="answer"  value="B" type="radio" />
-          C <input id="c" name="answer"  value="C" type="radio" />
-          D <input id="d" name="answer"  value="D" type="radio" />
 
+
+          <ul>
+            <?php if(is_array($option) || $option instanceof \think\Collection): $i = 0; $__LIST__ = $option;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?>
+            <li> <?php echo $key; ?>.<input style="width:500px;" type="text" name="option[]" value="<?php echo $item; ?>"/> <input type="radio" name="answer" value="<?php echo $key; ?>" <?php if($data['answer']==$key): ?>checked='checked'<?php endif; ?>/> </li>
+            <?php endforeach; endif; else: echo "" ;endif; ?>
+
+          </ul>
 
         </div>
-      </div>-->
+      </div>
       <input type="hidden" name="type" value="1"/>
 
       <div class="form-group">
@@ -73,6 +60,9 @@
           <label></label>
         </div>
         <div class="field">
+          <input type="hidden" name="is_update" value="1"/>
+          <input type="hidden" name="id" value="<?php echo $data['id']; ?>"/>
+          <input type="hidden" name="currentPage" value="<?php echo $currentPage; ?>"/>
           <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
         </div>
       </div>
