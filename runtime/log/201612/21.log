@@ -1,0 +1,2869 @@
+[ 2016-12-21T00:02:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.079005s][吞吐率：12.66req/s] [内存消耗：2,311.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:33]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:04:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,308.00kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.010001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:33]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:04:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：2,311.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:33]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:04:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,311.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:33]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:05:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,311.16kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'qWid'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:33]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:37+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,308.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：2,311.59kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:38+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,308.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,308.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：2,308.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,311.59kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001001s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：2,311.53kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:06:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：2,308.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ error ] [2]Illegal string offset 'id'[D:\EProject\wwwroot\tests\application\index\controller\Test.php:34]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:09:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,311.47kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,308.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：2,311.23kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.060004s][吞吐率：16.67req/s] [内存消耗：2,308.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,308.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：2,308.02kb] [文件加载：56]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ error ] [8]Array to string conversion[D:\EProject\wwwroot\tests\application\index\controller\Test.php:38]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,175.30kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：2,215.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：2,215.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:10:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,215.09kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:11:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：2,174.81kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:12:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,198.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:12:03+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：2,198.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:12:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,174.81kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:12:43+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,198.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:14:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：2,198.34kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:23:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,178.41kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:23:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.068003s][吞吐率：14.71req/s] [内存消耗：2,178.45kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:29:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：2,205.83kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:30:17+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,169.04kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:30:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,189.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:30:53+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：2,168.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:31:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,189.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:31:34+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,189.32kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:32:06+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,168.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:34:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：2,189.32kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:35:33+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,168.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:36:44+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,189.32kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.006001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:37:42+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：2,189.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:38:07+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,168.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:39:40+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：2,168.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:40:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/test/queryAllTest
+[ log ] www.tests.mm/index/test/queryAllTest [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,169.39kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryAllTest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=v13u86al9rok8cnddekmqiq8k7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:41:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：2,189.33kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:43:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:46:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:46:48+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:47:05+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:49:01+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,189.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:50:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,219.96kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:53:23+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,219.96kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:56:54+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:57:22+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,219.95kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T00:57:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：2,189.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:02:51+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,219.96kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:02:57+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047002s][吞吐率：21.28req/s] [内存消耗：2,189.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:05:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,189.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:13:59+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:15:29+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T01:58:30+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T21:52:16+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.003000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:04:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:05:04+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:06:19+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:11:49+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:13:21+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:13:41+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:18:00+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:23:26+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.035002s][吞吐率：28.57req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T22:25:35+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:48:08+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001001s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:48:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:49:14+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:50:38+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.033002s][吞吐率：30.30req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:52:27+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.032001s][吞吐率：31.25req/s] [内存消耗：2,232.22kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='3')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='3')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='3')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:53:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:54:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：2,232.20kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:56:31+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.044002s][吞吐率：22.73req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-21T23:58:02+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：2,197.71kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.008001s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
