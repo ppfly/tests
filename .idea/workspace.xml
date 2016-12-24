@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="546d3c55-40da-4106-85c1-3d992f7e7d44" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index/controller/Test.php" afterPath="$PROJECT_DIR$/application/index/controller/Test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/runtime/log/201612/24.log" afterPath="$PROJECT_DIR$/runtime/log/201612/24.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +47,8 @@
       <file leaf-file-name="Test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="213" column="67" selection-start-line="213" selection-start-column="67" selection-end-line="213" selection-end-column="67" />
+            <state relative-caret-position="752">
+              <caret line="230" column="30" selection-start-line="230" selection-start-column="30" selection-end-line="230" selection-end-column="30" />
               <folding>
                 <element signature="e#39#60#0#PHP" expanded="true" />
                 <marker date="1482602090961" expanded="true" signature="430:600" ph="select id,ti... t_tests" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/application/admin/view/tests/editTest2.html" />
         <option value="$PROJECT_DIR$/application/admin/controller/Tests.php" />
         <option value="$PROJECT_DIR$/application/index/controller/Test.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -619,12 +619,12 @@
       <workItem from="1482239927795" duration="10087000" />
       <workItem from="1482321279211" duration="7310000" />
       <workItem from="1482489533027" duration="4666000" />
-      <workItem from="1482584664911" duration="16479000" />
+      <workItem from="1482584664911" duration="17174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129709000" />
+    <option name="totallyTimeSpent" value="130404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -665,7 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/admin/index.php" />
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1027,10 +1026,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="213" column="67" selection-start-line="213" selection-start-column="67" selection-end-line="213" selection-end-column="67" />
+        <state relative-caret-position="752">
+          <caret line="230" column="30" selection-start-line="230" selection-start-column="30" selection-end-line="230" selection-end-column="30" />
           <folding>
             <element signature="e#39#60#0#PHP" expanded="true" />
             <marker date="1482602090961" expanded="true" signature="430:600" ph="select id,ti... t_tests" />
