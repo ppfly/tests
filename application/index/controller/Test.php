@@ -100,56 +100,135 @@ class Test extends Controller {
     }
 
     public function completedTest(){
-        //output_data($_POST);
+        //$allTest3=input('alltest3/a');
+        //output_data($allTest3);die;
+        //$all=input($_POST/a);
+        //output_data($_POST);die;
         if ($this->request->isPost()){
             header("Access-Control-Allow-Origin:*");
-            $row=input('rows/a');
+            //$row=input('rows/a');
+            $allTest1=input('alltest1/a');
+            $allTest2=input('alltest2/a');
+            $allTest3=input('alltest3/a');
 
-            //存入用户答题的信息
-            $r_data=[];
-            /*
-             * Wex5 data组件toJson方法返回的值，如果radio没有被点击过，data组件的选择标示列['checked'] 下没有['value']而是存在['originalValue']
-             * */
-            foreach ($row as $k => $v){
-                //echo $v['title']['value'].'<br/>';
-                $tmp=[];
-                $tmp['id']=$v['userdata']['id']['value'];
-                //需要判断是否存在['checked']，否则会报找不到索引错误
-                if(array_key_exists('value',$v['checked'])){
-                    $tmp['checked']=$v['checked']['value'];
-                }
-                $r_data[]=$tmp;
-            }
+            $r1_data=[];
+            if($allTest1['rows']){
+                foreach ($allTest1['rows'] as $k => $v) {
+                    $tmp=[];
+                    if($v['checked']['changed']=='1'){
+                        $tmp['id']=$v['userdata']['id']['value'];
+                        $tmp['selected']=$v['checked']['value'];
 
-            //准备查寻sql的id们
-            $r_ids=[];
-            foreach ($r_data as $k => $v){
-                $r_ids[]=$v['id'];
-            }
-            $str_ids=implode(',',$r_ids);
-            //echo $str_ids;
-
-            $sql='select id,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
-            $result=Db::query($sql,[$str_ids,$str_ids]);
-
-            //$userScore记录用户总分
-            $userScore=0;
-            foreach($result as $r_k => $r_v){
-                foreach($r_data as $k => $v){
-                    if($r_v['id']==$v['id']){
-                        if(array_key_exists('checked',$v) && $r_v['answer']==$v['checked'] ) $userScore=$userScore+1;
+                        $r1_data[]=$tmp;
                     }
                 }
             }
-            $ot=['userScore'=>$userScore];
-            echo json_encode($ot);
+
+            $r2_data=[];
+            if($allTest2['rows']){
+                foreach ($allTest2['rows'] as $k => $v){
+                    $tmp=[];
+                    if($v['checked']['changed']=='1'){
+                        $tmp['id']=$v['userdata']['id']['value'];
+                        $tmp['selected']=$v['checked']['value'];
+
+                        $r2_data[]=$tmp;
+                    }
+                }
+            }
+
+            $r3_data=[];
+            if($allTest3['rows']){
+                foreach ($allTest3['rows'] as $k => $v){
+                    $tmp=[];
+                    if($v['checked']['changed']=='1'){
+                        $tmp['id']=$v['userdata']['id']['value'];
+                        $tmp['selected']=$v['checked']['value'];
+
+                        $r3_data[]=$tmp;
+                    }
+                }
+            }
+            //output_data($r3_data);die;
+
+            $all_ids=[];
+            $allTest1_ids=[];
+            foreach ($r1_data as $k => $v){
+                $allTest1_ids[]=$v['id'];
+            }
+            $allTest2_ids=[];
+            foreach ($r2_data as $k => $v){
+                $allTest2_ids[]=$v['id'];
+            }
+            $allTest3_ids=[];
+            foreach ($r3_data as $k => $v){
+                $allTest3_ids[]=$v['id'];
+            }
+
+
+            $all_ids=array_merge($all_ids,$allTest1_ids);
+            $all_ids=array_merge($all_ids,$allTest2_ids);
+            $all_ids=array_merge($all_ids,$allTest3_ids);
+
+            $all_ids_str=implode(',',$all_ids);
+
+            $sql='select id,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
+            $result=Db::query($sql,[$all_ids_str,$all_ids_str]);
+
+
+            //$userScore记录用户总分
+            $userScore=0;
+            $allTest1Score=0;
+            $allTest2Score=0;
+            $allTest3Score=0;
+            foreach($result as $r_k => $r_v){
+                foreach($r1_data as $k => $v){
+                    if($r_v['id']==$v['id']){
+                        if($r_v['answer']==$v['selected']) $allTest1Score=$allTest1Score+1;
+                    }
+                }
+            }
+            foreach($result as $r_k => $r_v){
+                foreach($r2_data as $k => $v){
+                    if($r_v['id']==$v['id']){
+                        if($r_v['answer']==$v['selected']) $allTest2Score=$allTest2Score+1;
+                    }
+                }
+            }
+            foreach($result as $r_k => $r_v){
+                foreach($r3_data as $k => $v){
+                    $tmp_r=$r_v['answer'];
+                    $tmp_s=$v['selected'];
+                    if($r_v['id']==$v['id']){
+                        $r=[];
+                        for($i=0;$i<strlen($tmp_r);$i++){
+                            $r[$i] = $tmp_r[$i];
+                        }
+                        $s=[];
+                        for($i=0;$i<strlen($tmp_s);$i++){
+                            $s[$i] = $tmp_s[$i];
+                        }
+                        $r=sort($r);
+                        $s=sort($s);
+                        //if(implode(',',$r)==implode(',',$s)) $allTest3Score=$allTest3Score+1;
+                        if($r==$s) $allTest3Score=$allTest3Score+1;
+                    }
+                }
+            }
+            $userScore=$allTest1Score+$allTest2Score+$allTest3Score;
+
+            $ot=['userScore'=>$userScore,'test1'=>$allTest1Score,'test2'=>$allTest2Score,'test3'=>$allTest3Score];
+            output_data($ot);
+
+
         }
         //dump($r_ids);
     }
     public function execSQL(){
-        $data='{"A":"\u7b54\u6848\u9009\u9879A \u7b54\u6848\u9009\u9879A ","B":"\u7b54\u6848\u9009\u9879B \u7b54\u6848\u9009\u9879B ","C":"\u7b54\u6848\u9009\u9879C \u7b54\u6848\u9009\u9879C ","D":"\u7b54\u6848\u9009\u9879D \u7b54\u6848\u9009\u9879D "}';
-        $sql="update t_tests set `option`=? WHERE type='3'";
-        Db::execute($sql,[$data]);
+        //$data='{"A":"\u7b54\u6848\u9009\u9879A \u7b54\u6848\u9009\u9879A ","B":"\u7b54\u6848\u9009\u9879B \u7b54\u6848\u9009\u9879B ","C":"\u7b54\u6848\u9009\u9879C \u7b54\u6848\u9009\u9879C ","D":"\u7b54\u6848\u9009\u9879D \u7b54\u6848\u9009\u9879D "}';
+
+        $sql="update t_tests set `answer`=? WHERE type='2'";
+        Db::execute($sql,['C']);
         //{\"A\":\"\\u7b54\\u6848\\u9009\u9879A \u7b54\u6848\u9009\u9879A ","B":"\u7b54\u6848\u9009\u9879B \u7b54\u6848\u9009\u9879B ","C":"\u7b54\u6848\u9009\u9879C \u7b54\u6848\u9009\u9879C ","D":"\u7b54\u6848\u9009\u9879D \u7b54\u6848\u9009\u9879D
     }
 }
