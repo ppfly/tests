@@ -19243,3 +19243,3090 @@
 [ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test3_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test3_ids from t_lib where id='2')) [ RunTime:0.001000s ]
 
 ---------------------------------------------------------------
+[ 2016-12-27T00:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/
+[ log ] www.tests.mm/admin/ [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,767.49kb] [文件加载：52]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=98ddgtbpci5ckpe535o962oqg3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\index.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-12-27T00:54:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/info.html
+[ log ] www.tests.mm/admin/index/info.html [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,857.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'info',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.tests.mm/admin/',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=98ddgtbpci5ckpe535o962oqg3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Index->info[ D:\EProject\wwwroot\tests\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\EProject\wwwroot\tests\public\..\application\admin\view\index\info.html [ array (
+  0 => 'request',
+  1 => 'param',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select version() as v; [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-27T00:58:09+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,397.56kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test3_ids from t_lib where id='2')) ORDER by find_in_set(tt.id,(select test3_ids from t_lib where id='2')) [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-27T00:59:25+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/completedtest
+[ log ] www.tests.mm/index/test/completedtest [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,103.52kb] [文件加载：44]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'completedtest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '78636',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'alltest1' => 
+  array (
+    '@type' => 'table',
+    'rows' => 
+    array (
+      0 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '正常叫，电梯之所以能够准确停层，足因为安全钳把轿厢固定在轨上。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '48',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '由司机操纵的电悌在使用中．只要司机在轿厢内，就可以使电梯转入自动运行状态接送乘客．',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '42',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '地坎槽中有异物可能造成电梯无法启动．',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '56',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '当轿厢位置高于或低于楼层超过0.5米时，应采用在机房进行人工盘车的方法进行驶援。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '27',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯关门过程中，开门按钮不起作用',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '52',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯的日常巡检主要是指电梯每天正式投入运行前进行的检查和试运行，它的主要任务不是检修，而是对电梯进行常规的检查、清洁和适当的润滑。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '31',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '紧急开锁装置为应急需要，在层门外借助层门上的三角钥匙可将层门打开。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '59',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      7 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '每天电梯司机打开基站的投入运行钥匙开关后即可运送乘客。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '44',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      8 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '只要管理单位同意你操作电梯，你就是合法的电梯司机。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '46',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      9 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '平层准确度是指轿厢到站停靠后，其轿厢地坎上平面对层门地坎上平面垂直方向的偏差。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '58',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      10 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯的轿门、厅门从外观上关闭了，但还不能说电梯门就关好了',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '47',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      11 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '在任何情况下应做好电梯钥匙的交接工作，保证做到正确使用，特别要预防电梯钥匙的丢失及误操作。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '35',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      12 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '为防止轿厢超载，电梯载荷按乘梯人数核算时，每人是按75Kg核算的。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '96',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      13 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '每天电梯投入运行前，维修人检查照明灯和操纵盘上各按钮、开关、显示是否完好，电梯司机检查轿厢是否清洁。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '36',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      14 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '当发现电梯有异常情况时应将电梯运行到就近的层站，疏散乘客后．停止电梯的使用，通知维修人员进行检修',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '43',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      15 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯平层后，门不开，将乘客困在轿厢里。这是一种很危险状态，司机应赶紧将乘客放出去',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '32',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      16 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '强迫换速装置是端站保护之一，当电梯轿厢超过正常换速位置时，其起作用强迫电梯减速。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '55',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      17 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '对电梯进行清洁，就是单纯为了卫生，为了好看。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '30',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      18 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '援救轿厢内的乘客应从轿外进行。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '28',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      19 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯运行中因停电或其他原因突然停梯而造成将乘客困在梯内时，若轿厢不在层站的六区位置内，司机可以从轿埔内
+打开轿门和层门，将乘客放出。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '5',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      20 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯运行中困停电或其他原因突然停梯而造成将乘客困在梯内时，若轿厢正好停止在层站的站区范围内，司机可以从轿厢内打开轿门和层门，将乘客放出。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '6',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      21 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯在正常状态下不允许开门走车，但在检修状态下是可以开门走车的。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '49',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      22 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯的每次运行过程分为：起动加速、稳速运行和减速制停三个阶段',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '53',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      23 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯司机在对接操作运行时，应采取点动运行操作。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '26',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      24 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯司机必须知道自己操作电梯的额定速度、额定载重量、楼层站数等基本参数，对电梯在建筑物中所处的位置、通道及紧急出口可不了解。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '51',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      25 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯钥匙未经业主管理部门人员同意，不得随意使用，因工作需要使用时应做好记录。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '34',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      26 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '电梯停在某层，乘客进入轿厢后，超载信号报警，电梯已经超载，为了使乘客方便，这时电梯司机应主动退出让客优先乘座电梯。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '50',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      27 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '凡机房无人值守的电梯，对讲装置必须接到管理部门的值班处。',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '33',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      28 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '为了减少工作强度，电梯操作人员（电梯司机）．可以使用带橡胶的木棍操作操纵盘上的各种按钮',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '94',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      29 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '1',
+          'value' => '1',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '乘客召唤电梯时，不要同时按压上、下两个方向的召唤按钮，以提高电梯运行效',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'true',
+          'recordState' => 'edit',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '57',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+    ),
+    'userdata' => 
+    array (
+      'idColumnDefine' => 'id',
+      'idColumnName' => 'id',
+      'idColumnType' => 'String',
+      'model' => '',
+      'relationAlias' => 'checked,title',
+      'relationTypes' => 'String,String',
+      'relations' => 'checked,title',
+      'updateMode' => 'whereVersion',
+    ),
+  ),
+  'alltest2' => 
+  array (
+    '@type' => 'table',
+    'rows' => 
+    array (
+      0 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => 'sdaafaaaaaaaaaaaaa',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '250',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '583.5672305743836',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '77',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '518.8619136054646',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '223',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '475.7197382633758',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '89',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '319.40274249706675',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '221',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '541.8323413858491',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '242',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '325.40170226749194',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '66',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      7 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '596.7677893086968',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '243',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      8 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '950.5969387950347',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '236',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      9 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '308.0675325431559',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '224',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      10 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '594.8433294844286',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '237',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      11 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '215.43513910419787',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '234',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      12 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '459.0007331771783',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '73',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      13 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '984.5087211434811',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '81',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      14 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '860.5003225249242',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '90',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      15 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '123.97921283168645',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '228',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      16 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '357.0359035926274',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '231',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      17 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '770.719201090484',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '240',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      18 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '350.02877502704854',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '93',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      19 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '436.29982176823523',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '68',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      20 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '417.55369717027406',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '85',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      21 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '994.5571962693307',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '226',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      22 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '907.036986115423',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '87',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      23 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '835.7381940220838',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '82',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      24 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '358.3419531195815',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '244',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      25 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '571.40788675417',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '232',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      26 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '5.262579773797262',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '78',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      27 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '875.3424285681382',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '91',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      28 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '493.44857641816935',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '2',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '74',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      29 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '601.3354972017329',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '216',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+    ),
+    'userdata' => 
+    array (
+      'idColumnDefine' => 'id',
+      'idColumnName' => 'id',
+      'idColumnType' => 'String',
+      'model' => '',
+      'relationAlias' => 'checked,title,type',
+      'relationTypes' => 'String,String,String',
+      'relations' => 'checked,title,type',
+      'updateMode' => 'whereVersion',
+    ),
+  ),
+  'alltest3' => 
+  array (
+    '@type' => 'table',
+    'rows' => 
+    array (
+      0 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '546.2342505773848',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '103',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      1 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '502.40185717344457',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '154',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      2 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '526.0222279709039',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '140',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      3 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '564.925919813035',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '115',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      4 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '760.717117936087',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '198',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      5 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '630.4660408110041',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '203',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      6 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '209.71714724760238',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '200',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      7 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '322.3741774655638',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '165',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      8 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '401.1843683209125',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '181',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      9 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '27.354342888439394',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '186',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      10 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '764.1651246362973',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '125',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      11 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '138.17201288246736',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '202',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      12 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '389.42185080556374',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '171',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      13 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '508.78872676639696',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '185',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      14 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '258.04293459099057',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '122',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      15 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '282.9903469262555',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '111',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      16 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '802.6349924529297',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '137',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      17 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '387.9846375323689',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '180',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      18 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '616.6603403321099',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '158',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      19 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '370.114312851908',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '129',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      20 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '658.7406058411492',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '147',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      21 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '175.173901184624',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '139',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      22 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '132.57446245530105',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '121',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      23 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '601.3354972017329',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '216',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      24 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '284.54833969897436',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '100',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      25 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '326.5106364400225',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '98',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      26 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '121.25827290234926',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '159',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      27 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '367.3196587407213',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '118',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      28 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '632.1864078121133',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '136',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      29 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '846.4404026478906',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '163',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      30 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '774.921887344608',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '206',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      31 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '892.4913163226948',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '123',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      32 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '969.9648264515818',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '188',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      33 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '122.33580008366685',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '153',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      34 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '718.5286523015506',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '170',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      35 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '431.97317741063716',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '215',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      36 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '996.4059693705346',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '117',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      37 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '352.4145897034692',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '130',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      38 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '51.84223414570301',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '133',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+      39 => 
+      array (
+        'checked' => 
+        array (
+          'changed' => '0',
+          'originalValue' => '',
+        ),
+        'title' => 
+        array (
+          'changed' => '0',
+          'value' => '791.523327856812',
+          'originalValue' => '',
+        ),
+        'type' => 
+        array (
+          'changed' => '0',
+          'value' => '3',
+          'originalValue' => '',
+        ),
+        'userdata' => 
+        array (
+          'isModified' => 'false',
+          'id' => 
+          array (
+            'changed' => '0',
+            'value' => '172',
+            'originalValue' => '',
+          ),
+        ),
+      ),
+    ),
+    'userdata' => 
+    array (
+      'idColumnDefine' => 'id',
+      'idColumnName' => 'id',
+      'idColumnType' => 'String',
+      'model' => '',
+      'relationAlias' => 'checked,title,type',
+      'relationTypes' => 'String,String,String',
+      'relations' => 'checked,title,type',
+      'updateMode' => 'whereVersion',
+    ),
+  ),
+)
+[ info ] [ RUN ] app\index\controller\Test->completedTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select id,answer from t_tests tt where find_in_set(tt.id,'48,42,56,27,52,31,59,44,46,58,47,35,96,36,43,32,30,28,5,6,49,53,26,51,34,50,33,94,57') order by find_in_set(tt.id,'48,42,56,27,52,31,59,44,46,58,47,35,96,36,43,32,30,28,5,6,49,53,26,51,34,50,33,94,57') [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2016-12-27T01:01:10+08:00 ] 127.0.0.1 127.0.0.1 POST /index/test/queryalltest
+[ log ] www.tests.mm/index/test/queryalltest [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：2,464.91kb] [文件加载：47]
+[ info ] [ LANG ] D:\EProject\wwwroot\tests\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'test',
+    2 => 'queryalltest',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tests.mm',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+  'referer' => 'http://localhost:8080/x5/UI2/v_/wd/test.w?device=m',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Test->queryAllTest[ D:\EProject\wwwroot\tests\application\index\controller\Test.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=tests;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `t_lib` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT `id` FROM `t_lib`  [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`title` from t_tests tt where find_in_set(tt.id,(select test1_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test1_ids from t_lib where id='1')) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test2_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test2_ids from t_lib where id='1')) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] select `id`,`type`,`title`,`option` from t_tests tt where find_in_set(tt.id,(select test3_ids from t_lib where id='1')) ORDER by find_in_set(tt.id,(select test3_ids from t_lib where id='1')) [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
