@@ -43,11 +43,15 @@
         <div class="field" style="padding-top:8px;">
 
 
-          <ul>
+          <ul class="ul_radio">
+            {php}$ascii_n=64;{/php}
             {volist name="option" id="item"}
-            <li> {$key}.<input style="width:500px;" type="text" name="option[]" value="{$item}"/> <input type="radio" name="answer" value="{$key}" {if $data['answer']==$key}checked='checked'{/if}/> </li>
+            {php}$ascii_n=$ascii_n+1;{/php}
+            <li><span>{$key}.</span><input style="width:500px;" type="text" name="option[]" value="{$item}"/> <input type="radio" name="answer" value="{$key}" {if $data['answer']==$key}checked='checked'{/if}/> </li>
             {/volist}
-
+            {php} $ascii_n=$ascii_n+1;for($i=$ascii_n;$i<73;$i++){{/php}
+            <li><span>{:chr($i);}.</span><input style="width:500px;" type="text" name="option[]" value=""/> <input type="radio" name="answer" value="{:chr($i);}"/></li>
+            {php} } {/php}
           </ul>
 
         </div>

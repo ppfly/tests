@@ -1,3 +1,4 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\edittest1.html";i:1480948500;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -13,15 +14,15 @@
 </head>
 <body>
 <div class="panel admin-panel">
-  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改多选题</strong></div>
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改内容</strong></div>
   <div class="body-content">
-    <form method="post" class="form-x" enctype="multipart/form-data" action="{:url('tests/addTest3')}">
+    <form method="post" class="form-x" enctype="multipart/form-data" action="<?php echo url('tests/addTest1'); ?>">
       <div class="form-group">
         <div class="label">
           <label>题面：</label>
         </div>
         <div class="field">
-          <textarea class="input" name="title" style=" height:90px;">{$data['title']}</textarea>
+          <textarea class="input" name="title" style=" height:90px;"><?php echo $data['title']; ?></textarea>
           <div class="tips"></div>
         </div>
       </div>
@@ -30,7 +31,7 @@
           <label>图片：</label>
         </div>
         <div class="field">
-          <a href="{$data['pic']}" target="_blank"><img src="{$data['pic']}" width="100px"/> </a>
+          <a href="<?php echo $data['pic']; ?>" target="_blank"><img src="<?php echo $data['pic']; ?>" width="100px"/> </a>
           <input type="file" name="pic" class="button bg-blue margin-left" id="image1"   style="float:left;">
           <div class="tipss">图片尺寸：500*500</div>
         </div>
@@ -41,20 +42,12 @@
           <label>标准答案：</label>
         </div>
         <div class="field" style="padding-top:8px;">
-          <ul class="ul_radio">
-            {php}$ascii_n=64;{/php}
-            {volist name="option" id="item"}
-            {php}$ascii_n=$ascii_n+1;{/php}
-            <li><span>{$key}.</span><input style="width:500px;" type="text" name="option[]" value="{$item}"/> <input type="checkbox" name="answer[]" value="{$key}" {php}if (strstr($data['answer'],$key)) echo "checked='checked'"{/php}/> </li>
-            {/volist}
-            {php} $ascii_n=$ascii_n+1;for($i=$ascii_n;$i<73;$i++){{/php}
-            <li><span>{:chr($i);}.</span><input style="width:500px;" type="text" name="option[]" value=""/> <input type="checkbox" name="answer[]" value="{:chr($i);}"/></li>
-            {php} } {/php}
-          </ul>
+          正确 <input id="r" name="answer"  value="1" type="radio" <?php if($data['answer']==1): ?>checked='checked'<?php endif; ?> />
+          错误 <input id="w" name="answer"  value="0" type="radio" <?php if($data['answer']==0): ?>checked='checked'<?php endif; ?> />
 
         </div>
       </div>
-      <input type="hidden" name="type" value="3"/>
+      <input type="hidden" name="type" value="1"/>
 
       <div class="form-group">
         <div class="label">
@@ -62,8 +55,8 @@
         </div>
         <div class="field">
           <input type="hidden" name="is_update" value="1"/>
-          <input type="hidden" name="id" value="{$data['id']}"/>
-          <input type="hidden" name="currentPage" value="{$currentPage}"/>
+          <input type="hidden" name="id" value="<?php echo $data['id']; ?>"/>
+          <input type="hidden" name="currentPage" value="<?php echo $currentPage; ?>"/>
           <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
         </div>
       </div>

@@ -32,6 +32,9 @@ class Index extends Admin{
         $user->logout();
         $this->redirect('index/login');
     }
+    public function info(){
+        return $this->fetch();
+    }
 }
 
 ?>

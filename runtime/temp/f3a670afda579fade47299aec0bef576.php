@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\edittest2.html";i:1482151296;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\edittest2.html";i:1482765808;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -44,11 +44,12 @@
         <div class="field" style="padding-top:8px;">
 
 
-          <ul>
-            <?php if(is_array($option) || $option instanceof \think\Collection): $i = 0; $__LIST__ = $option;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;?>
-            <li> <?php echo $key; ?>.<input style="width:500px;" type="text" name="option[]" value="<?php echo $item; ?>"/> <input type="radio" name="answer" value="<?php echo $key; ?>" <?php if($data['answer']==$key): ?>checked='checked'<?php endif; ?>/> </li>
-            <?php endforeach; endif; else: echo "" ;endif; ?>
-
+          <ul class="ul_radio">
+            <?php $ascii_n=64; if(is_array($option) || $option instanceof \think\Collection): $i = 0; $__LIST__ = $option;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$item): $mod = ($i % 2 );++$i;$ascii_n=$ascii_n+1; ?>
+            <li><span><?php echo $key; ?>.</span><input style="width:500px;" type="text" name="option[]" value="<?php echo $item; ?>"/> <input type="radio" name="answer" value="<?php echo $key; ?>" <?php if($data['answer']==$key): ?>checked='checked'<?php endif; ?>/> </li>
+            <?php endforeach; endif; else: echo "" ;endif;  $ascii_n=$ascii_n+1;for($i=$ascii_n;$i<73;$i++){ ?>
+            <li><span><?php echo chr($i);; ?>.</span><input style="width:500px;" type="text" name="option[]" value=""/> <input type="radio" name="answer" value="<?php echo chr($i);; ?>"/></li>
+            <?php  }  ?>
           </ul>
 
         </div>

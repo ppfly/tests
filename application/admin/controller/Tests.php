@@ -19,6 +19,7 @@ class Tests extends Admin{
                 return $this->error('必须填写题面和标准答案');
             }
 
+            $data=[];
             $uploadFile=request()->file('pic');
             //dump($uploadFile);die;
             $fileName='';
@@ -38,13 +39,14 @@ class Tests extends Admin{
                     $fileName=$info->getSaveName();
                 }
                 $fileName='/uploads/'.$fileName;
+                $data['pic']=$fileName;
             }
 
             $data=[
                 'title'=>$title,
                 'type'=>'1',
                 'answer'=>$answer,
-                'pic'=>$fileName,
+                //'pic'=>$fileName,
             ];
 
             $tests=model('Tests');
@@ -82,7 +84,7 @@ class Tests extends Admin{
         //dump($this->param);
 
         if(!$currentPage==0) $this->param['page']=$currentPage;
-        $data=$tests->where(['type'=>'1'])->where($map)->paginate(2,false,['query'=>$this->param]);
+        $data=$tests->where(['type'=>'1'])->where($map)->paginate(7,false,['query'=>$this->param]);
         //dump($data->total());
 
         $this->assign('total',$data->total());
@@ -152,6 +154,7 @@ class Tests extends Admin{
 
             $uploadFile=request()->file('pic');
             //dump($uploadFile);die;
+            $data=[];
             $fileName='';
             if($uploadFile){
                 if($is_update){
@@ -169,6 +172,7 @@ class Tests extends Admin{
                     $fileName=$info->getSaveName();
                 }
                 $fileName='/uploads/'.$fileName;
+                $data['pic']=$fileName;
             }
 
             $option_arr=array_filter(input('option/a'));
@@ -184,7 +188,7 @@ class Tests extends Admin{
                 'type'=>'2',
                 'option'=>json_encode($option_new_arr),
                 'answer'=>$answer,
-                'pic'=>$fileName,
+                //'pic'=>$fileName,
             ];
 
             $tests=model('Tests');
@@ -220,7 +224,7 @@ class Tests extends Admin{
         //dump($this->param);
 
         if(!$currentPage==0) $this->param['page']=$currentPage;
-        $data=$tests->where(['type'=>'2'])->where($map)->paginate(2,false,['query'=>$this->param]);
+        $data=$tests->where(['type'=>'2'])->where($map)->paginate(7,false,['query'=>$this->param]);
         //dump($data->total());
 
         $this->assign('total',$data->total());
@@ -270,7 +274,8 @@ class Tests extends Admin{
         if(IS_POST){
             //dump($_POST);
             $title=input('title');
-            $answer=implode(',',$_POST['answer']);
+            //$answer=implode('',$_POST['answer']);
+            $answer=implode('',input('answer/a'));
             $is_update=input('is_update');
             $id=input('id');
             if(empty(trim($title)) && isNull($answer)){
@@ -279,6 +284,7 @@ class Tests extends Admin{
 
             $uploadFile=request()->file('pic');
             //dump($uploadFile);die;
+            $data=[];
             $fileName='';
             if($uploadFile){
                 if($is_update){
@@ -297,13 +303,23 @@ class Tests extends Admin{
                     $fileName=$info->getSaveName();
                 }
                 $fileName='/uploads/'.$fileName;
+                $data['pic']=$fileName;
+            }
+
+            $option_arr=array_filter(input('option/a'));
+            $option_n=65;
+            $option_new_arr=[];
+            foreach($option_arr as $k=>$v){
+                $option_new_arr=array_merge($option_new_arr,[chr($option_n)=>$v]);
+                $option_n++;
             }
 
             $data=[
                 'title'=>$title,
                 'type'=>'3',
+                'option'=>json_encode($option_new_arr),
                 'answer'=>$answer,
-                'pic'=>$fileName,
+                //'pic'=>$fileName,
             ];
 
             $tests=model('Tests');
@@ -339,7 +355,7 @@ class Tests extends Admin{
         //dump($this->param);
 
         if(!$currentPage==0) $this->param['page']=$currentPage;
-        $data=$tests->where(['type'=>'3'])->where($map)->paginate(2,false,['query'=>$this->param]);
+        $data=$tests->where(['type'=>'3'])->where($map)->paginate(7,false,['query'=>$this->param]);
         //dump($data->total());
 
         $this->assign('total',$data->total());
@@ -375,9 +391,13 @@ class Tests extends Admin{
         if(IS_POST){
 
         }else{
+
+
             $data=Db::name('tests')->where('id',$id)->find();
             $this->assign('currentPage',$currentPage);
             $this->assign('data',$data);
+            $option=json_decode($data['option'],true);
+            $this->assign('option',$option);
             return $this->fetch();
         }
     }

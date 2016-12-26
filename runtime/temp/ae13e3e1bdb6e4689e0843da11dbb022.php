@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest3.html";i:1481034923;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest3.html";i:1482766056;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -42,10 +42,16 @@
           <label>标准答案：</label>
         </div>
         <div class="field" style="padding-top:8px;">
-          A <input id="a" name="answer[]"  value="A" type="checkbox" />
-          B <input id="b" name="answer[]"  value="B" type="checkbox" />
-          C <input id="c" name="answer[]"  value="C" type="checkbox" />
-          D <input id="d" name="answer[]"  value="D" type="checkbox" />
+          <ul class="ul_radio">
+            <li><span>A.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="A" type="checkbox" /></li>
+            <li><span>B.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="B" type="checkbox" /></li>
+            <li><span>C.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="C" type="checkbox" /></li>
+            <li><span>D.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="D" type="checkbox" /></li>
+            <li><span>E.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="E" type="checkbox" /></li>
+            <li><span>F.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="F" type="checkbox" /></li>
+            <li><span>G.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="G" type="checkbox" /></li>
+            <li><span>H.</span><input style="width:500px;" type="text" name="option[]"/> <input name="answer[]"  value="H" type="checkbox" /></li>
+          </ul>
 
         </div>
       </div>

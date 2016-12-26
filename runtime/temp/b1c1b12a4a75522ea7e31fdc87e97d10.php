@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest2.html";i:1482149302;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:78:"D:\EProject\wwwroot\tests\public\..\application\admin\view\tests\addtest2.html";i:1482764182;}*/ ?>
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="__PUBLIC__/css/admin.css">
 <script src="__PUBLIC__/js/jquery.js"></script>
 <script src="__PUBLIC__/js/pintuer.js"></script>
+  <style>
+
+  </style>
 </head>
 <body>
 <div class="panel admin-panel">
@@ -41,13 +44,13 @@
           <label>备选答案：</label>
         </div>
         <div class="field">
-          <ul>
-            <li> A.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="A"/> </li>
-            <li> B.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="B"/> </li>
-            <li> C.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="C"/> </li>
-            <li> D.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="D"/> </li>
-            <li> E.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="E"/> </li>
-            <li> F.<input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="F"/> </li>
+          <ul class="ul_radio">
+            <li><span>A.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="A"/> </li>
+            <li><span>B.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="B"/> </li>
+            <li><span>C.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="C"/> </li>
+            <li><span>D.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="D"/> </li>
+            <li><span>E.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="E"/> </li>
+            <li><span>F.</span><input style="width:500px;" type="text" name="option[]"/> <input type="radio" name="answer" value="F"/> </li>
           </ul>
         </div>
       </div>

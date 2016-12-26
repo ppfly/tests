@@ -231,6 +231,11 @@ class Test extends Controller {
         Db::execute($sql,['C']);
         //{\"A\":\"\\u7b54\\u6848\\u9009\u9879A \u7b54\u6848\u9009\u9879A ","B":"\u7b54\u6848\u9009\u9879B \u7b54\u6848\u9009\u9879B ","C":"\u7b54\u6848\u9009\u9879C \u7b54\u6848\u9009\u9879C ","D":"\u7b54\u6848\u9009\u9879D \u7b54\u6848\u9009\u9879D
     }
+    public function t(){
+        for ($i=1;$i<4;$i++){
+
+        }
+    }
 }
 
 ?>
