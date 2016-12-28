@@ -104,7 +104,7 @@ class Tests extends Admin{
         }
 
         if(\app\common\model\Tests::destroy($id)){
-            if(!$total==0 && $total%2==1 && $currentPage>=2){
+            if(!$total==0 && $total%7==1 && $currentPage>=2){
                 return $this->success('删除成功',url('tests/listTest1',['page'=>($currentPage-1)]));
             }else{
                 return $this->success('删除成功');
@@ -244,7 +244,7 @@ class Tests extends Admin{
         }
 
         if(\app\common\model\Tests::destroy($id)){
-            if(!$total==0 && $total%2==1 && $currentPage>=2){
+            if(!$total==0 && $total%7==1 && $currentPage>=2){
                 return $this->success('删除成功',url('tests/listTest2',['page'=>($currentPage-1)]));
             }else{
                 return $this->success('删除成功');
@@ -375,7 +375,7 @@ class Tests extends Admin{
         }
 
         if(\app\common\model\Tests::destroy($id)){
-            if(!$total==0 && $total%2==1 && $currentPage>=2){
+            if(!$total==0 && $total%7==1 && $currentPage>=2){
                 return $this->success('删除成功',url('tests/listTest3',['page'=>($currentPage-1)]));
             }else{
                 return $this->success('删除成功');
