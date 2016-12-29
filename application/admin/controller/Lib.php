@@ -69,13 +69,28 @@ class Lib extends Admin{
     public function listLib($currentPage=0){
         $lib=model('Lib');
         if(!$currentPage==0) $this->param['page']=$currentPage;
-        $data=$lib->paginate(2,false,['query'=>$this->param]);
+        $data=$lib->paginate(7,false,['query'=>$this->param]);
 
         $this->assign('total',$data->total());
         $this->assign('cpage',$data->currentPage());
         $this->assign('data',$data);
         $this->assign('page',$data->render());
         return $this->fetch();
+    }
+
+    public function deleteLib($id=0,$currentPage=0,$total=0){
+        if($id<1) $this->error('删除参数不正确');
+
+        if(\app\common\model\Lib::destroy($id)){
+            if(!$total==0 && $total%7==1 && $currentPage>=2){
+                return $this->success('删除成功',url('Lib/listLib',['page'=>($currentPage-1)]));
+            }else{
+                return $this->success('删除成功');
+            }
+
+        }else{
+            return $this->success('删除失败');
+        }
     }
 }
 

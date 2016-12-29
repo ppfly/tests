@@ -82,7 +82,7 @@
           <td width="20%">{$row['test3_ids']}</td>
           <td>
             <div class="button-group">
-              <a class="button border-red" href="{:url('lib/listLib',['id'=>$row['id'],'currentPage'=>$cpage,'total'=>$total])}" onclick="return del(1,1,1)">
+              <a class="button border-red" href="{:url('lib/deleteLib',['id'=>$row['id'],'currentPage'=>$cpage,'total'=>$total])}" onclick="return del(1,1,1)">
                 <span class="icon-trash-o"></span> 删除</a>
             </div>
           </td>
