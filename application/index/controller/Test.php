@@ -33,14 +33,15 @@ class Test extends Controller {
                 $option_tmp=json_decode($v['option'],true);
 
                 $option_tmp_element=[];
-                foreach ($option_tmp as $ok => $ov){
-                    //$ov=array_merge($ov,['id'=>$v['id']]);
-                    $option_tmp_element['id']=$v['id'];
-                    $option_tmp_element['option_element']=$ok.'.'.$ov;
-                    $option_tmp_element['option_key']=$ok;
-                    $result2_option[]=$option_tmp_element;
+                if(is_array($option_tmp) && !empty($option_tmp)) {
+                    foreach ($option_tmp as $ok => $ov) {
+                        //$ov=array_merge($ov,['id'=>$v['id']]);
+                        $option_tmp_element['id'] = $v['id'];
+                        $option_tmp_element['option_element'] = $ok . '.' . $ov;
+                        $option_tmp_element['option_key'] = $ok;
+                        $result2_option[] = $option_tmp_element;
+                    }
                 }
-
                 //$result2_option[]=$option_tmp_element;
             }
             //查找单选题结束
@@ -57,14 +58,15 @@ class Test extends Controller {
                 //$v=array_merge(json_decode($v['option'],true),['id'=>$v['id']]);
                 $option_tmp=json_decode($v['option'],true);
                 $option_tmp_element=[];
-                foreach ($option_tmp as $ok => $ov){
-                    //$ov=array_merge($ov,['id'=>$v['id']]);
-                    $option_tmp_element['id']=$v['id'];
-                    $option_tmp_element['option_element']=$ok.'.'.$ov;
-                    $option_tmp_element['option_key']=$ok;
-                    $result3_option[]=$option_tmp_element;
+                if(is_array($option_tmp) && !empty($option_tmp)) {
+                    foreach ($option_tmp as $ok => $ov) {
+                        //$ov=array_merge($ov,['id'=>$v['id']]);
+                        $option_tmp_element['id'] = $v['id'];
+                        $option_tmp_element['option_element'] = $ok . '.' . $ov;
+                        $option_tmp_element['option_key'] = $ok;
+                        $result3_option[] = $option_tmp_element;
+                    }
                 }
-
                 //$result2_option[]=$option_tmp_element;
             }
             //查找多选题结束
@@ -107,11 +109,14 @@ class Test extends Controller {
         if ($this->request->isPost()){
             header("Access-Control-Allow-Origin:*");
             //$row=input('rows/a');
+            //分别获取三种题型交卷上来的id,和选择项
             $allTest1=input('alltest1/a');
             $allTest2=input('alltest2/a');
             $allTest3=input('alltest3/a');
-
+            //output_data($allTest1);die;
+            //分别得到每种题型答过题的id和选择项
             $r1_data=[];
+            $r1_noSelected=[];//未选择的判断题ID
             if($allTest1['rows']){
                 foreach ($allTest1['rows'] as $k => $v) {
                     $tmp=[];
@@ -120,11 +125,14 @@ class Test extends Controller {
                         $tmp['selected']=$v['checked']['value'];
 
                         $r1_data[]=$tmp;
+                    }else{//获得未做选择的判断题id 存用$1_noSelected
+                        $r1_noSelected[]=$v['userdata']['id']['value'];
                     }
                 }
             }
 
             $r2_data=[];
+            $r2_noSelected=[];//未选择的单选题ID
             if($allTest2['rows']){
                 foreach ($allTest2['rows'] as $k => $v){
                     $tmp=[];
@@ -133,11 +141,14 @@ class Test extends Controller {
                         $tmp['selected']=$v['checked']['value'];
 
                         $r2_data[]=$tmp;
+                    }else{//获得未做选择的单选题id 存用$2_noSelected
+                        $r2_noSelected[]=$v['userdata']['id']['value'];
                     }
                 }
             }
 
             $r3_data=[];
+            $r3_noSelected=[];//未选择的多选题ID
             if($allTest3['rows']){
                 foreach ($allTest3['rows'] as $k => $v){
                     $tmp=[];
@@ -146,11 +157,14 @@ class Test extends Controller {
                         $tmp['selected']=$v['checked']['value'];
 
                         $r3_data[]=$tmp;
+                    }else{//获得未做选择的多选题id 存用$3_noSelected
+                        $r3_noSelected[]=$v['userdata']['id']['value'];
                     }
                 }
             }
-            //output_data($r3_data);die;
+            //output_data($r3_noSelected);die;
 
+            //取出所有答过的题的id，并组成用逗号分隔的字符串
             $all_ids=[];
             $allTest1_ids=[];
             foreach ($r1_data as $k => $v){
@@ -172,34 +186,50 @@ class Test extends Controller {
 
             $all_ids_str=implode(',',$all_ids);
 
+            //从数据库中取出答过的题的正确答案
             $sql='select id,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
             $result=Db::query($sql,[$all_ids_str,$all_ids_str]);
 
 
             //$userScore记录用户总分
+            //判断每种题型各答对的分数，并求出总分
             $userScore=0;
             $allTest1Score=0;
             $allTest2Score=0;
             $allTest3Score=0;
+            $r1_wrongSelect=[];//选择错误的判断题
             foreach($result as $r_k => $r_v){
                 foreach($r1_data as $k => $v){
                     if($r_v['id']==$v['id']){
-                        if($r_v['answer']==$v['selected']) $allTest1Score=$allTest1Score+1;
+                        $tmp_wrongSelect=[];
+                        if($r_v['answer']==$v['selected']) {
+                            $allTest1Score=$allTest1Score+1;
+                        }else{//把答错的判断题ID存入$r1_wrongSelected
+                            $r1_wrongSelect[]=$v['id'];
+                        }
                     }
                 }
             }
+
+            $r2_wrongSelect=[];//选择错误的单选题
             foreach($result as $r_k => $r_v){
                 foreach($r2_data as $k => $v){
                     if($r_v['id']==$v['id']){
+                        $tmp_wrongSelect=[];
                         if($r_v['answer']==$v['selected']) $allTest2Score=$allTest2Score+1;
+                    }else{//把答错的单选题ID存入$r2_wrongSelected
+                        $r2_wrongSelect[]=$v['id'];
                     }
                 }
             }
+            $r3_wrongSelect=[];//选择错误的多选题
             foreach($result as $r_k => $r_v){
                 foreach($r3_data as $k => $v){
                     $tmp_r=$r_v['answer'];
                     $tmp_s=$v['selected'];
                     if($r_v['id']==$v['id']){
+                        //重新按降序排序交卷上传和数据库中标准答案的多选答案，并进行对比
+                        $tmp_wrongSelect=[];
                         $r=[];
                         for($i=0;$i<strlen($tmp_r);$i++){
                             $r[$i] = $tmp_r[$i];
@@ -211,13 +241,98 @@ class Test extends Controller {
                         $r=sort($r);
                         $s=sort($s);
                         //if(implode(',',$r)==implode(',',$s)) $allTest3Score=$allTest3Score+1;
-                        if($r==$s) $allTest3Score=$allTest3Score+1;
+                        if($r==$s) {
+                            $allTest3Score=$allTest3Score+1;
+                        }else{//把答错的多选题ID存入$r2_wrongSelected
+                            $r3_wrongSelect[]=$v['id'];
+
+                        }
                     }
                 }
             }
             $userScore=$allTest1Score+$allTest2Score+$allTest3Score;
 
-            $ot=['userScore'=>$userScore,'test1'=>$allTest1Score,'test2'=>$allTest2Score,'test3'=>$allTest3Score];
+            //把每种题型的未选和答错的ID数组合并,并从数据库中分别查询出来，合并到返回给前台的数组中
+            $r1_wrongSelect=array_merge($r1_wrongSelect,$r1_noSelected);
+            $r2_wrongSelect=array_merge($r2_wrongSelect,$r2_noSelected);
+            $r3_wrongSelect=array_merge($r3_wrongSelect,$r3_noSelected);
+            $r1_wrongSelect_str=implode(',',$r1_wrongSelect);
+            $r2_wrongSelect_str=implode(',',$r2_wrongSelect);
+            $r3_wrongSelect_str=implode(',',$r3_wrongSelect);
+
+            $sql1='select id,title,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
+            $result1=Db::query($sql1,[$r1_wrongSelect_str,$r1_wrongSelect_str]);
+            $sql2='select id,title,`option`,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
+            $result2=Db::query($sql2,[$r2_wrongSelect_str,$r2_wrongSelect_str]);
+            $sql3='select id,title,`option`,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
+            $result3=Db::query($sql3,[$r3_wrongSelect_str,$r3_wrongSelect_str]);
+
+            //这里没写完，要继续把option单独取出存起来，方便前台再读取到data组件中，并组合到返回给前台的数组中
+            //把单、多选的选项和所属ID单独放在数组中保存
+            $result2_option=[];
+            foreach($result2 as $k =>$v){
+                $option_tmp=json_decode($v['option'],true);
+                $option_tmp_element=[];
+                if(is_array($option_tmp) && !empty($option_tmp)) {
+                    foreach ($option_tmp as $ok => $ov) {
+                        $option_tmp_element['id'] = $v['id'];
+                        $option_tmp_element['option_element'] = $ok . '.' . $ov;
+                        $option_tmp_element['option_key'] = $ok;
+
+                        $result2_option[] = $option_tmp_element;
+                    }
+                }
+            }
+
+            $result3_option=[];
+            foreach($result3 as $k =>$v){
+                $option_tmp=json_decode($v['option'],true);
+                $option_tmp_element=[];
+                if(is_array($option_tmp) && !empty($option_tmp)) {
+                    foreach ($option_tmp as $ok => $ov) {
+                        $option_tmp_element['id'] = $v['id'];
+                        $option_tmp_element['option_element'] = $ok . '.' . $ov;
+                        $option_tmp_element['option_key'] = $ok;
+
+                        $result3_option[] = $option_tmp_element;
+                    }
+                }
+            }
+            //简化返回前台的数据
+            $result2_new=[];
+            foreach ($result2 as $k => $v){
+                $tmp=[];
+                $tmp['id']=$v['id'];
+                $tmp['title']=$v['title'];
+                $tmp['answer']=$v['answer'];
+                $result2_new[]=$tmp;
+            }
+            $result3_new=[];
+            foreach ($result3 as $k => $v){
+                $tmp=[];
+                $tmp['id']=$v['id'];
+                $tmp['title']=$v['title'];
+                $tmp['answer']=$v['answer'];
+                $result3_new[]=$tmp;
+            }
+
+
+            //json形式返回结果
+            $ot=[
+                'userScore'=>$userScore,
+                'test1'=>$allTest1Score,
+                'test2'=>$allTest2Score,
+                'test3'=>$allTest3Score,
+                'wrongtest1'=>$result1,
+                'wrongtest2'=>[
+                    'data'=>$result2_new,
+                    'option'=>$result2_option
+                ],
+                'wrongtest3'=>[
+                    'data'=>$result3_new,
+                    'option'=>$result3_option,
+                ],
+            ];
             output_data($ot);
 
 
