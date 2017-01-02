@@ -71,18 +71,35 @@ class Test extends Controller {
             }
             //查找多选题结束
 
+            //去除$result2 $result3中option的值
+            $result2_new=[];
+            foreach ($result2 as $k => $v){
+                $tmp=[];
+                $tmp['id']=$v['id'];
+                $tmp['title']=$v['title'];
 
+                $result2_new[]=$tmp;
+            }
+
+            $result3_new=[];
+            foreach ($result3 as $k => $v){
+                $tmp=[];
+                $tmp['id']=$v['id'];
+                $tmp['title']=$v['title'];
+
+                $result3_new[]=$tmp;
+            }
 
 
             $result['result1']=$result1;
 
             $result2_data=[];
-            $result2_data['data']=$result2;
+            $result2_data['data']=$result2_new;
             $result2_data['option']=$result2_option;
             $result['result2']=$result2_data;
 
             $result3_data=[];
-            $result3_data['data']=$result3;
+            $result3_data['data']=$result3_new;
             $result3_data['option']=$result3_option;
             $result['result3']=$result3_data;
 
@@ -238,8 +255,9 @@ class Test extends Controller {
                         for($i=0;$i<strlen($tmp_s);$i++){
                             $s[$i] = $tmp_s[$i];
                         }
-                        $r=sort($r);
-                        $s=sort($s);
+                        sort($r);
+                        sort($s);
+
                         //if(implode(',',$r)==implode(',',$s)) $allTest3Score=$allTest3Score+1;
                         if($r==$s) {
                             $allTest3Score=$allTest3Score+1;
@@ -267,7 +285,22 @@ class Test extends Controller {
             $sql3='select id,title,`option`,answer from t_tests tt where find_in_set(tt.id,?) order by find_in_set(tt.id,?)';
             $result3=Db::query($sql3,[$r3_wrongSelect_str,$r3_wrongSelect_str]);
 
-            //这里没写完，要继续把option单独取出存起来，方便前台再读取到data组件中，并组合到返回给前台的数组中
+
+            //把从数据表中取出的判断题答案1，0替换成正确和错误
+            $result1_new=[];
+            foreach($result1 as $k => $v){
+                $tmp=[];
+                $tmp['id']=$v['id'];
+                $tmp['title']=$v['title'];
+                if($v['answer']=='1'){
+                    $tmp['answer']='正确';
+                }else{
+                    $tmp['answer']='错误';
+                }
+                $result1_new[]=$tmp;
+            }
+
+
             //把单、多选的选项和所属ID单独放在数组中保存
             $result2_option=[];
             foreach($result2 as $k =>$v){
@@ -323,7 +356,7 @@ class Test extends Controller {
                 'test1'=>$allTest1Score,
                 'test2'=>$allTest2Score,
                 'test3'=>$allTest3Score,
-                'wrongtest1'=>$result1,
+                'wrongtest1'=>$result1_new,
                 'wrongtest2'=>[
                     'data'=>$result2_new,
                     'option'=>$result2_option
